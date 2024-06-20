@@ -2,24 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Email: rahman64@purdue.edu</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a machine learning researcher committed to developing fundamental learning algorithms for medical surgery, with a focus on robotic surgery. I develop algorithms to automate the process of medical surgery, particularly focusing on vision-language models, deep reinforcement learning, and generative modeling. I have contributed to techniques that achieve super-human (super-surgeon) level accuracy in surgical decision-making for burn wound patients. In teleoperated robotic surgery, my methods achieve state-of-the-art effectiveness in delay tolerance and accuracy in completing surgical tasks. These developments require solving fundamental challenges that are absent in traditional machine learning, including data distribution shifts, limited data availability, and the lack of explainability in decision-making.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a Ph.D. candidate in the Department of Computer Science at Purdue University. My advisor is Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/), and I closely collaborate with Professor [Juan P. Wachs](https://web.ics.purdue.edu/~jpwachs/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I completed my M.S. from the department of Computer Science at the University of Virginia in 2018. Before joining the University of Virginia, I worked as a Lecturer in the Computer Science and Engineering department at the BRAC University. I completed my B.Sc. in Computer Science and Engineering from Bangladesh University of Engineering and Technology (BUET) in 2013.
+
