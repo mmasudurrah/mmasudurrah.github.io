@@ -2,13 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Purdue University
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Ph.D. Candidate</p>
+    <p>Computer Science, Purdue Unversity</p>
     <p>Email: rahman64@purdue.edu</p>
 
 news: true # includes a list of news items
