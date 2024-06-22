@@ -2,13 +2,13 @@
 layout: page
 title: Surgical Decision-Making in Burn Diagnosis
 description: Burn Depth Prediction.
-img: assets/img/forward_frameowork.png
+img: assets/img/forward_framework.png
 importance: 1
 category: Robotics
 related_publications: true
 ---
 
-I have developed a semi-autonomous teleoperated robotic surgery system {% cite rahman2021sartres %}, {% cite gonzalez2021deserts %}  that can operate with up to 5 seconds of delay with high efficiency (Figure 2). A key challenge was the scarcity of diverse training data for learning algorithms [3]. To address this, I created the DESK (Dexterous Surgical Skills) dataset [4, 9], which collects robotic surgical skills from various platforms. This dataset facilitates knowledge transfer across different domains, particularly where data is scarce. 
+I have developed a semi-autonomous teleoperated robotic surgery system {% cite rahman2021sartres %}, {% cite gonzalez2021deserts %}  that can operate with up to 5 seconds of delay with high efficiency (Figure 2). A key challenge was the scarcity of diverse training data for learning algorithms {% cite rahman2021sequential %}. To address this, I created the DESK (Dexterous Surgical Skills) dataset {% cite madapana2019desk %}, {% cite gonzalez2021dexterous %}, which collects robotic surgical skills from various platforms. This dataset facilitates knowledge transfer across different domains, particularly where data is scarce. 
 
 
 <div class="row">
