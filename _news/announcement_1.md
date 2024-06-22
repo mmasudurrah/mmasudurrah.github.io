@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Lightning talk on Vision-Language Model in Deep RL at [MMLS 2024](https://midwest-ml.org/2024/)
+Lightning talk on Vision-Language Model in Deep RL at [MMLS 2024](https://midwest-ml.org/2024/).
