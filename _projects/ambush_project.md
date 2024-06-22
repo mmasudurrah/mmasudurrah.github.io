@@ -2,7 +2,7 @@
 layout: page
 title: Surgical Decision-Making in Burn Diagnosis
 description: Burn Depth Prediction.
-img: assets/img/ambush_overview.jpg
+img: assets/img/ambush_overview.png
 importance: 1
 category: Medical Surgery
 related_publications: false
