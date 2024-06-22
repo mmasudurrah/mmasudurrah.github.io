@@ -5,7 +5,7 @@ description: Burn Depth Prediction.
 img: assets/img/ambush_overview.jpg
 importance: 1
 category: Medical Surgery
-related_publications: true
+related_publications: false
 ---
 
 Accurate assessment of burn depth is crucial for determining appropriate treatment and predicting the likelihood of pathological scarring. Traditional methods often rely on subjective judgments and invasive procedures, necessitating more reliable, objective, and non-invasive approaches. Accurately prioritizing which burn wounds require surgical intervention is vital but challenging. This difficulty arises primarily from the complexity of assessing burn depth based solely on visual information, a task that challenges even experienced burn surgeons. The assessment of burn depth is a critical factor in predicting pathological scarring, a common consequence of burn injuries, and remains an unresolved clinical issue.
