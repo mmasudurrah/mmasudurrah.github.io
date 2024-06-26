@@ -4,7 +4,7 @@ title: Teleoperated Robotic Surgery
 description: Semi-autonomous Telesurgery.
 img: assets/img/forward_framework.png
 importance: 1
-category: Robotics
+category: Robotic Surgery
 related_publications: true
 ---
 

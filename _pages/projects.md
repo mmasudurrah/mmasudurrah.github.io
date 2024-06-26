@@ -5,7 +5,7 @@ permalink: /projects/
 description: Some highlighted projects.
 nav: true
 nav_order: 3
-display_categories: [Medical Surgery, Robotics, DeepRL, Generative Model]
+display_categories: [Deep RL, Robotic Surgery]
 horizontal: false
 ---
 

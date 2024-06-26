@@ -4,7 +4,7 @@ title: Generalization in Deep RL
 description: Improving Generalization in Deep Reinforcement Learning
 img: assets/img/thinker_overview.png
 importance: 1
-category: DeepRL
+category: Deep RL
 related_publications: true
 ---
 

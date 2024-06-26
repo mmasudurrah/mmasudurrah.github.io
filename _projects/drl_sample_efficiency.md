@@ -2,9 +2,9 @@
 layout: page
 title: Robust Policy Optimization (RPO)
 description: Improving Sample Efficiency in Deep Reinforcement Learning
-img: assets/img/thinker_overview.png
+img: assets/img/rpo_overview.png
 importance: 1
-category: DeepRL
+category: Deep RL
 related_publications: false
 ---
 

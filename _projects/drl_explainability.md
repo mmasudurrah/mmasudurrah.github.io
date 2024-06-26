@@ -4,7 +4,7 @@ title: Vision-Language Model in Deep RL
 description: Improving Explainability in Deep Reinforcement Learning
 img: assets/img/language_state.png
 importance: 1
-category: DeepRL
+category: Deep RL
 related_publications: true
 ---
 
