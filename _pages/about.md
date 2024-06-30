@@ -12,6 +12,11 @@ profile:
     <p>Ph.D. Candidate</p>
     <p>Computer Science, Purdue Unversity</p>
     <p>Email: rahman64@purdue.edu</p>
+    <div class="social"> 
+    <div class="contact-icons">
+    <a href="https://scholar.google.com/citations?user=0nUv7b0AAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a><a href="https://mmasudurrah.github.io/assets/pdf/CV_Md_Masudur_Rahman.pdf" title="CV" rel="external nofollow noopener" target="_blank"><i class="ai ai-cv"></i></a>
+    </div>
+    </div>
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
