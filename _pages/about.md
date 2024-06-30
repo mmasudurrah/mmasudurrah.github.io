@@ -12,8 +12,6 @@ profile:
     <p>Ph.D. Candidate</p>
     <p>Computer Science, Purdue Unversity</p>
     <p>Email: rahman64@purdue.edu</p>
-    [Google Scholar](https://scholar.google.com/citations?hl=en&user=0nUv7b0AAAAJ)
-[CV](https://mmasudurrah.github.io/assets/pdf/CV_Md_Masudur_Rahman.pdf)
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
