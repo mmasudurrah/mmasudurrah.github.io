@@ -15,7 +15,7 @@ profile:
     <div class="social"> 
     <div class="contact-icons">
     <a href="https://scholar.google.com/citations?user=0nUv7b0AAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;
     <a href="https://mmasudurrah.github.io/assets/pdf/CV_Md_Masudur_Rahman.pdf" title="CV" rel="external nofollow noopener" target="_blank"><i class="ai ai-cv"></i></a>
     </div>
     </div>
