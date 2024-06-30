@@ -12,8 +12,8 @@ profile:
     <p>Ph.D. Candidate</p>
     <p>Computer Science, Purdue Unversity</p>
     <p>Email: rahman64@purdue.edu</p>
-    <p>[Google Scholar](https://scholar.google.com/citations?hl=en&user=0nUv7b0AAAAJ)</p>
-    <p>[CV](https://mmasudurrah.github.io/assets/pdf/CV_Md_Masudur_Rahman.pdf)</p>
+    [Google Scholar](https://scholar.google.com/citations?hl=en&user=0nUv7b0AAAAJ)
+[CV](https://mmasudurrah.github.io/assets/pdf/CV_Md_Masudur_Rahman.pdf)
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,3 +26,6 @@ I am a machine learning researcher committed to developing fundamental learning 
 I am a Ph.D. candidate in the Department of Computer Science at Purdue University. My advisor is Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/), and I closely collaborate with Professor [Juan P. Wachs](https://web.ics.purdue.edu/~jpwachs/).
 
 I completed my M.S. from the department of Computer Science at the University of Virginia in 2018. Before joining the University of Virginia, I worked as a Lecturer in the Computer Science and Engineering department at the BRAC University. I completed my B.Sc. in Computer Science and Engineering from Bangladesh University of Engineering and Technology (BUET) in 2013.
+
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=0nUv7b0AAAAJ)
+[CV](https://mmasudurrah.github.io/assets/pdf/CV_Md_Masudur_Rahman.pdf)
