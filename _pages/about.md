@@ -25,6 +25,8 @@ I am a Ph.D. candidate in the Department of Computer Science at Purdue Universit
 
 I completed my M.S. from the department of Computer Science at the University of Virginia in 2018. Before joining the University of Virginia, I worked as a Lecturer in the Computer Science and Engineering department at the BRAC University. I completed my B.Sc. in Computer Science and Engineering from Bangladesh University of Engineering and Technology (BUET) in 2013.
 
-<a href="https://scholar.google.com/citations?user=0nUv7b0AAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
-
-<a href="https://mmasudurrah.github.io/assets/pdf/CV_Md_Masudur_Rahman.pdf" title="CV" rel="external nofollow noopener" target="_blank"><i class="ai ai-cv"></i></a>
+<div class="social"> 
+<div class="contact-icons">
+<a href="https://scholar.google.com/citations?user=0nUv7b0AAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a><a href="https://mmasudurrah.github.io/assets/pdf/CV_Md_Masudur_Rahman.pdf" title="CV" rel="external nofollow noopener" target="_blank"><i class="ai ai-cv"></i></a>
+</div>
+</div>
