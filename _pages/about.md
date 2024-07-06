@@ -39,3 +39,9 @@ My work includes developing semi-autonomous telesurgery systems that can functio
 
 **Deep Reinforcement Learning:**
 I develop reinforcement learning (RL) algorithms to cater to the needs of surgical decision-making and robotic surgery. My methods include enhancing generalization through style transfer, increasing sample efficiency via novel policy gradient techniques, and using natural language for interpretable policy training. These approaches address challenges such as distribution shifts and primacy bias, demonstrating superior generalization and performance in various testing environments.
+
+**Future Goals:**
+
+**Expanding Access to Surgery:** In the near term, my goal is to develop systems that allow general medical personnel, such as nurses and medics, to perform surgical procedures with AI and robotic assistance. This approach aims to reduce the burden on hospital specialists, increase access to surgical care, and lower healthcare costs.
+
+**Autonomous Surgical Systems:** Looking further ahead, I aim to create fully autonomous surgical systems capable of managing entire surgical processes. A prototype in development, RoBurn—an Automated Robotic Burn Surgeon—is equipped with technologies like ultrasound and digital cameras to perform comprehensive burn care, even in challenging environments.
