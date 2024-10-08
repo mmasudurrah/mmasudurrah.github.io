@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Ph.D. Candidate, CS@Purdue</p>
+    <p>Ph.D in CS@Purdue</p>
     <p>Email: rahman64@purdue.edu</p>
     <div class="social"> 
     <div class="contact-icons">
@@ -26,8 +26,7 @@ I am a machine learning researcher committed to developing fundamental learning 
 <!-- I have contributed to techniques that achieve super-human (super-surgeon) level accuracy in surgical decision-making for burn wound patients. In teleoperated robotic surgery, my methods achieve state-of-the-art effectiveness in delay tolerance and accuracy in completing surgical tasks.  -->
 
 
-I am a Ph.D. candidate in the Department of Computer Science at Purdue University. My advisor is Professor [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/), and I closely collaborate with Professor [Juan P. Wachs](https://web.ics.purdue.edu/~jpwachs/).
-I completed my M.S. in Computer Science at the University of Virginia in 2018. Before that, I worked as a Lecturer at BRAC University from 2013 to 2015, after earning my B.Sc. in Computer Science and Engineering from BUET in 2013.
+I completed my Ph.D. in Computer Science at Purdue University in 2024 under the supervision of Professor  [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/). I completed my M.S. in Computer Science at the University of Virginia in 2018. Before that, I worked as a Lecturer at BRAC University from 2013 to 2015, after earning my B.Sc. in Computer Science and Engineering from BUET in 2013.
 
 **KEY RESEARCH AREAS**
 \
