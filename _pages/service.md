@@ -10,10 +10,10 @@ nav_order: 7
 **Organizer**: 
   - NAACL 2024: Organizer and Chair of the Birds of a Feather (BoF) session on Vision-Language Models in Medical Surgery.
   
-**Conference Reviewer**: 
-  - ICML 2022 (**Outstanding reviewer, Top 10%**), 2023, 2024
-  - ICLR 2024
+**Conference Reviewer**:
   - NeurIPS 2022, 2023
+  - ICML 2022 (**Outstanding reviewer, Top 10%**), 2023, 2024, 2025
+  - ICLR 2024
   - UAI 2023, 2024
   - AISTATS 2023
   - AAMAS 2022, 2023, 2024
