@@ -29,7 +29,7 @@ I completed my Ph.D. in Computer Science at Purdue University in 2024 under the 
 **KEY RESEARCH AREAS**
 \
 **Reinforcement Learning:**
-I develop reinforcement learning (RL) algorithms to cater to the needs of surgical decision-making and robotic surgery. My methods include enhancing generalization through style transfer, increasing sample efficiency via novel policy gradient techniques, and using natural language for interpretable policy training. These approaches address challenges such as distribution shifts and primacy bias, demonstrating superior generalization and performance in various testing environments.
+I develop reinforcement learning (RL) algorithms. My methods include enhancing generalization through style transfer, increasing sample efficiency via novel policy gradient techniques, and using natural language for interpretable policy training. These approaches address challenges such as distribution shifts and primacy bias, demonstrating superior generalization and performance in various testing environments.
 \
 **AI in Burn Care:** I have developed an AI system based on the Vision-Language Model (GPT4-Vision) for automated surgical decision-making in burn patients. This system enhances preoperative decisions, ensuring timely and accurate surgical interventions, and has demonstrated performance levels surpassing expert surgeon capabilities.
 \
