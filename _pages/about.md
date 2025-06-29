@@ -26,7 +26,7 @@ My research focuses on developing principled and adaptable intelligence for auto
 I am currently a Postdoctoral Research Assistant in the Edwardson School of Industrial Engineering at Purdue University, working with **Dr. Juan P. Wachs**. I completed my Ph.D. in Computer Science at Purdue University in 2024 under the supervision of Dr.  [Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/). I completed my M.S. in Computer Science at the University of Virginia in 2018. Before that, I worked as a Lecturer at BRAC University from 2013 to 2015, after earning my B.Sc. in Computer Science and Engineering from BUET in 2013.
 
 ### KEY RESEARCH AREAS
-
+---
 ### Reinforcement Learning
 I develop practical algorithms that empower agents to generalize under uncertainty and adapt beyond their training distribution. My work focuses on robust, sample-efficient reinforcement learning, enhanced by foundation models for complex, real-world decision-making.\
 **Keywords:** _Generalization in RL · Robust RL · Robust Policy Optimization (RPO) · Foundation Model-Augmented RL · Adaptive Decision-Making_
