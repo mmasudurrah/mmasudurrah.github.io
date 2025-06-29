@@ -34,12 +34,11 @@ I develop practical algorithms that empower agents to generalize under uncertain
 
 ### Robotics  
 My research builds embodied systems capable of perceiving, reasoning, and improvising in unstructured environments. I combine affordance-aware control with foundation model-guided perception to support real-time planning in both medical and field robotics.\
-**Keywords:** _Embodied AI · Affordance Learning · Foundation-Guided Perception ·Teleoperation· Robotic Improvisation_
+**Keywords:** _Embodied AI · Affordance Learning · VLM-Guided Perception · Foundation Model-Guided Perception · Teleoperation· Robotic Improvisation_
 
 
 ### AI in Healthcare
 
-I design clinically grounded AI systems that integrate visual, linguistic, and structured data to support diagnosis and autonomous decision-making. This includes medical imaging and robotic assistance, powered by foundation models and multimodal reasoning.
-
+I design clinically grounded AI systems that integrate visual, linguistic, and structured data to support diagnosis and autonomous decision-making. This includes medical imaging and robotic assistance, powered by foundation models and multimodal reasoning.\
 **Keywords:** _Multimodal Reasoning · VLMs · Medical Robotics · Foundation Models in Healthcare · Burn Care_
 
