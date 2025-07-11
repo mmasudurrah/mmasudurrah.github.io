@@ -27,18 +27,14 @@ I am currently a Postdoctoral Research Assistant in the Edwardson School of Indu
 
 ### KEY RESEARCH AREAS
 ---
-### Reinforcement Learning
-I develop practical algorithms that empower agents to generalize under uncertainty and adapt beyond their training distribution. My work focuses on robust, sample-efficient reinforcement learning, enhanced by foundation models for complex, real-world decision-making.\
-**Keywords:** _Generalization in RL · Robust RL · Robust Policy Optimization (RPO) · Foundation Model-Augmented RL · Adaptive Decision-Making_
+### Learning, Reasoning & Decision-Making
+Modern decision-making agents are remarkably powerful in simulation, yet struggle to adapt, generalize, or explain their behavior in complex real-world tasks. Deep reinforcement learning (**RL**) methods often overfit narrow tasks and lack robustness under distributional shift, while multimodal foundation models (e.g., **VLM**) offer rich priors but operate largely without causal structure or grounded planning. This disconnect limits the deployment of intelligent systems in dynamic environments where adaptability and transparency are essential. My research addresses this gap by integrating sample-efficient reinforcement learning with structured reasoning, combining symbolic logic, procedural planning, and vision-language representations to build agents that **generalize, improvise**, and justify their actions beyond static benchmarks.
 
 
-### Robotics  
-My research builds embodied systems capable of perceiving, reasoning, and improvising in unstructured environments. I combine affordance-aware control with foundation model-guided perception to support real-time planning in both medical and field robotics.\
-**Keywords:** _Embodied AI · Affordance Learning · VLM-Guided Perception · Foundation Model-Guided Perception · Teleoperation· Robotic Improvisation_
+### Embodied Autonomy  
+Despite advances in robotic control and learning, true autonomy in **unstructured and high-stakes environments** remains elusive. Robots deployed in the real world must contend with noisy sensors, changing dynamics, partial observability, and limited human oversight, all under strict constraints of time, bandwidth, and safety. These challenges are amplified in critical domains such as remote surgery or field robotics, where teleoperation is unreliable and scripted behavior fails. My research develops embodied systems that integrate **predictive shared autonomy, affordance-aware planning, and real-time improvisation** to enable robust task execution in settings marked by uncertainty, delay, and sparse supervision.
 
 
 ### AI in Healthcare
-
-I design clinically grounded AI systems that integrate visual, linguistic, and structured data to support diagnosis and autonomous decision-making. This includes medical imaging and robotic assistance, powered by foundation models and multimodal reasoning.\
-**Keywords:** _Multimodal Reasoning · VLMs · Medical Robotics · Foundation Models in Healthcare · Burn Care_
+While AI has demonstrated early success in medical imaging and language-based triage, current models often lack the transparency, adaptability, and real-world integration needed for deployment in high-stakes clinical care (e.g., **Burn Diagnosis**). Most models rely on large, clean datasets and provide limited explanation, which is a mismatch for domains such as trauma response, rural surgery, or battlefield medicine, where data is noisy and mistakes carry real cost. My research bridges this gap by building multimodal (e.g., **medical imaging** - ultrasound, Doppler), interpretable decision-support systems grounded in **clinical reasoning**, procedural knowledge, and symbolic logic. These systems operate in **austere settings** and outperform traditional models in surgical intervention planning, diagnosis, and adaptive triage.
 
