@@ -9,57 +9,17 @@ display_categories: [Deep RL, Robotic Surgery]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+**Learning, Reasoning & Decision-Making:**  
+Modern decision-making agents are powerful in simulation yet struggle to adapt, generalize, or explain their behavior in complex tasks—limitations that prevent their safe and reliable use in **high-stakes environments** where unexpected conditions can lead to costly or unsafe actions. These challenges motivate my research, which integrates **sample-efficient reinforcement learning** with **structured reasoning**, combining **symbolic logic, procedural planning, and vision-language representations** to build agents that **generalize, improvise, and justify their actions** beyond static benchmarks and toward deployment in dynamic, real-world settings.
 
-{% else %}
+**Embodied Autonomy:**  
+Despite advances in robotic control and learning, true autonomy in **unstructured, safety-critical environments** remains challenging. Real-world robots face noisy sensors, changing dynamics, and limited oversight, often relying on **teleoperation** that breaks down under high latency or unexpected conditions. My research develops **embodied systems** that combine **predictive shared autonomy**, **affordance-aware planning**, and real-time **improvisation** to enable **robust task execution** in demanding settings such as **remote surgery** and **field robotics**.
 
-<!-- Display projects without categories -->
+**AI for Healthcare:**  
+AI has shown promise in **medical imaging** and triage, yet most models lack the transparency, adaptability, and integration needed in **high-stakes clinical settings**. These gaps can lead to errors in trauma response, rural surgery, or battlefield medicine, where data is noisy and time critical. My research develops multimodal, interpretable decision-support systems grounded in clinical reasoning, procedural knowledge, and symbolic logic. Designed for **austere environments**, these systems improve surgical planning, diagnosis, and adaptive triage by delivering accurate predictions with meaningful, verifiable justifications.
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+**Publications:**  
+My work is disseminated broadly across leading venues in machine learning, robotics, and medical AI. I have published at major ML conferences and workshops such as **NAACL**, **ECML-PKDD**, **ICLR (RRL)**, and **NeurIPS (FMDM)**, as well as top robotics venues like **ICRA**, **IROS**, and **RO-MAN**, and biomedical outlets including *JMIR Medical Informatics*, **MIUA**, and **MICCAI (AE-CAI)** and **MHSRS (the leading forum for military health research)**. I also contribute actively to the community through **service**, regularly reviewing for NeurIPS, ICML, ICLR, AAAI, MICCAI, and the RA-L robotics journal.
 
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+**Funding:**  
+In addition to scholarly dissemination, my research has been supported through competitive external and internal funding that directly advances these directions. I am a key personnel on multiple funded projects, including an awarded **NSF Robust Intelligence (RI)** grant (Award #2521982, **$300K**) and internal support from the **Health of the Forces Program** at Purdue University (**$10K**). I also serve as key personnel on NIH proposals currently under review, including an **NIH R21** (Explainable AI for ultrasound-based burn diagnosis) and an **NIH R01** (Burn conversion through medical imaging), which together provide a strong foundation for the continued growth of my research program.
