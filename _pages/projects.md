@@ -8,6 +8,9 @@ nav_order: 3
 display_categories: [Deep RL, Robotic Surgery]
 horizontal: false
 ---
+My research focuses on developing **principled and adaptable intelligence** for autonomous systems operating in **high-stakes environments** where errors carry significant cost and adaptability is essential. I aim to bridge the gap between powerful simulation-trained agents and the unpredictable demands of the real world by unifying **reinforcement learning (RL)** with **vision-language models (VLM)** to enable systems that **reason, adapt, and act** under uncertainty. This work advances both **generalization and sample efficiency** in decision-making and integrates learning with structured reasoning to produce agents capable of grounded, interactive behaviors. These contributions drive **real-world impact** in domains such as **burn diagnosis through medical imaging** and **emergency robotics**, where systems must perceive affordances and improvise actions in unstructured, rapidly evolving conditions.
+
+My research is organized around three connected focus areas.
 
 **Learning, Reasoning & Decision-Making:**  
 Modern decision-making agents are powerful in simulation yet struggle to adapt, generalize, or explain their behavior in complex tasks—limitations that prevent their safe and reliable use in **high-stakes environments** where unexpected conditions can lead to costly or unsafe actions. These challenges motivate my research, which integrates **sample-efficient reinforcement learning** with **structured reasoning**, combining **symbolic logic, procedural planning, and vision-language representations** to build agents that **generalize, improvise, and justify their actions** beyond static benchmarks and toward deployment in dynamic, real-world settings.
