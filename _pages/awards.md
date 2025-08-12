@@ -15,7 +15,7 @@ nav_order: 4
 ## Awards & Honors
 
 - **Best Paper Award** (Full Paper Poster Category), Medical Image Understanding and Analysis (MIUA) 2025.
-- **Best Poster Presentation Award**, Medical Image Understanding and Analysis (MIUA) 2025, for the same paper.
+- **Best Poster Presentation Award**, Medical Image Understanding and Analysis (MIUA) 2025.
 - **Postdoctoral Supplemental Travel Award**, Purdue University, Fall 2025 (Top 38% of applicants across 9 Purdue colleges).
 - **Outstanding Reviewer**, Top 10%, ICML, 2022.
 - Complimentary ICML Conference Registration for Outstanding Reviewer, 2022.
