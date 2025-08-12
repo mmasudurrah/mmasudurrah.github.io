@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /projects/
-description: Some highlighted projects.
+description: 
 nav: true
 nav_order: 3
 display_categories: [Deep RL, Robotic Surgery]
