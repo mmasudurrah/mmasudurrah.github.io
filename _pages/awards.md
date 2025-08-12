@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /awards/
-title: Awards & Grant
+title: Awards & Grants
 description:
 nav: true
 nav_order: 4
@@ -9,7 +9,7 @@ nav_order: 4
 
 ## Grants
 
-- **NSF Robust Intelligence (RI) Grant**: *EAGER: Theoretical Foundations for Integrating Foundational Models into Reinforcement Learning* ([Award #2521982](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2521982)), Key Personnel, **$300,000**, 2025–2027. PI: Juan P Wachs. [Link](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2521982)
+- **NSF Robust Intelligence (RI) Grant**: *EAGER: Theoretical Foundations for Integrating Foundational Models into Reinforcement Learning* (Award #2521982), Key Personnel, **$300,000**, 2025–2027. PI: Juan P Wachs. [Link](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2521982)
 - **Health of the Forces Pilot Funding Program** (Purdue University): *Accelerated Expertise: AI-Powered Diagnostic Pathways for Rapid Clinical Mastery of Burns*, Co-Investigator, **$10,000**, 2025–2026.
 
 ## Awards & Honors
