@@ -14,6 +14,8 @@ My research is organized around three connected focus areas.
 
 **Learning, Reasoning & Decision-Making:**  
 Modern decision-making agents are powerful in simulation yet struggle to adapt, generalize, or explain their behavior in complex tasks—limitations that prevent their safe and reliable use in **high-stakes environments** where unexpected conditions can lead to costly or unsafe actions. These challenges motivate my research, which integrates **sample-efficient reinforcement learning** with **structured reasoning**, combining **symbolic logic, procedural planning, and vision-language representations** to build agents that **generalize, improvise, and justify their actions** beyond static benchmarks and toward deployment in dynamic, real-world settings.
+<img src="/assets/img/research/rl_framework.png" alt="Reinforcement learning
+framework." width="300" align="right" style="margin-left:15px; margin-bottom:15px;">
 
 **Embodied Autonomy:**  
 Despite advances in robotic control and learning, true autonomy in **unstructured, safety-critical environments** remains challenging. Real-world robots face noisy sensors, changing dynamics, and limited oversight, often relying on **teleoperation** that breaks down under high latency or unexpected conditions. My research develops **embodied systems** that combine **predictive shared autonomy**, **affordance-aware planning**, and real-time **improvisation** to enable **robust task execution** in demanding settings such as **remote surgery** and **field robotics**.
