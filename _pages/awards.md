@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /award/
+permalink: /awards/
 title: Awards & Grant
 description:
 nav: true
