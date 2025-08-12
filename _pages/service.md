@@ -11,8 +11,13 @@ nav_order: 7
   - NAACL 2024: Organizer and Chair of the Birds of a Feather (BoF) session on Vision-Language Models in Medical Surgery.
   
 **Conference Reviewer**:
+  - AAAI (Main Track, AI Alignment Track, AI for Social Good Track) 2026
+  - WACV 2026
   - NeurIPS 2022, 2023, 2025
   - ICML 2022 (**Outstanding reviewer, Top 10%**), 2023, 2024, 2025
+  - MICCAI 2025
+  - MIUA 2025
+  - BMVC 2025
   - ICLR 2024
   - UAI 2023, 2024
   - AISTATS 2023
