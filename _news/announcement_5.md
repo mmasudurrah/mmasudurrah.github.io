@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presenting a paper on AI for burn care at the [Military Health System Research Symposium (MHSRS) 2024](https://www.mhsrs.net/)  in August, Kissimmee, FL.
+🪧 Presenting a paper on AI for burn care at the [Military Health System Research Symposium (MHSRS) 2024](https://www.mhsrs.net/)  in August, Kissimmee, FL.
