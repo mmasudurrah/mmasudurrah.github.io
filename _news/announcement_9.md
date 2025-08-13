@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Completed [NSF I-Corps Hub: Great Lakes Region](https://www.greatlakesicorps.org/).  [Digital Badge](https://api.badgr.io/public/assertions/SWVbQzbYQ7-Z0GnL08hfQg).
+🏁 Completed [NSF I-Corps Hub: Great Lakes Region](https://www.greatlakesicorps.org/).  [Digital Badge](https://api.badgr.io/public/assertions/SWVbQzbYQ7-Z0GnL08hfQg).
