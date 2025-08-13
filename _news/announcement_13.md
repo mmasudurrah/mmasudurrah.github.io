@@ -6,4 +6,4 @@ related_posts: false
 icon: fa fa-file-alt
 ---
 
-A paper got accepted to the [JMIR Medical Informatics](https://medinform.jmir.org/) 2025. Paper title: BURN-AID: AI-Driven Integrated System for Burn Depth Prediction with Electronic Medical Records.
+📑 A paper got accepted to the [JMIR Medical Informatics](https://medinform.jmir.org/) 2025. Paper title: BURN-AID: AI-Driven Integrated System for Burn Depth Prediction with Electronic Medical Records.
