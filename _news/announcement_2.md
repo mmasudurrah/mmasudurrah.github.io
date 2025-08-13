@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-NAACL 2024: Organizer and Chair of the Birds of a Feather (BoF) session on Vision-Language Models in Medical Surgery.
+📋 🎤 NAACL 2024: Organizer and Chair of the Birds of a Feather (BoF) session on Vision-Language Models in Medical Surgery.
