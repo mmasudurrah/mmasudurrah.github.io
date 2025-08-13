@@ -6,4 +6,6 @@ related_posts: false
 icon: fa fa-file-alt
 ---
 
-🏆 Got the **Best Full Paper Poster Award** at [MIUA 2025](https://conferences.leeds.ac.uk/miua/) for the paper titled: Knowledge-Driven Hypothesis Generation for Burn Diagnosis from Ultrasound with Vision- Language Model.
+🏆 Awarded **Best Paper Award** (Full Paper Poster Category) at [MIUA 2025](https://conferences.leeds.ac.uk/miua/) for the paper titled: Knowledge-Driven Hypothesis Generation for Burn Diagnosis from Ultrasound with Vision- Language Model.
+
+🏆 Received **Best Poster Presentation Award** at [MIUA 2025](https://conferences.leeds.ac.uk/miua/). 
