@@ -32,10 +32,6 @@ To meet these challenges, I design methods that combine **reinforcement learning
 
 In high-stakes clinical settings (**AI in Healthcare**), my **burn diagnosis** system achieved 95% accuracy in surgical decision-making using **real-patient data** from a regional burn center, significantly outperforming traditional methods and clinician judgment, which typically achieve 70% accuracy. For **remote robotic surgery**, my teleoperation framework maintained effective control under network **delays of up to five seconds**, whereas conventional systems often fail beyond 300 milliseconds in **emulated settings**. These capabilities demonstrate strong potential for greater autonomy in low-bandwidth and resource-constrained environments.
 
-My research is organized into three interconnected thrusts:  
-(1) learning **generalizable and sample-efficient** policies for decision-making;  
-(2) enabling agents to **reason and improvise** in uncertain and data-limited settings; and  
-(3) deploying these capabilities in **embodied systems** and safety-critical domains such as autonomous surgery, trauma response, and remote diagnostics.  
-Across these directions, I aim to build AI systems that are both technically robust and structurally reliable, capable of performing with resilience, transparency, and trust in the unpredictable complexity of the real world.
+My research is organized into three interconnected thrusts:  (1) learning **generalizable and sample-efficient** policies for decision-making;  (2) enabling agents to **reason and improvise** in uncertain and data-limited settings; and  (3) deploying these capabilities in **embodied systems** and safety-critical domains such as autonomous surgery, trauma response, and remote diagnostics. Across these directions, I aim to build AI systems that are both technically robust and structurally reliable, capable of performing with resilience, transparency, and trust in the unpredictable complexity of the real world.
 
 
