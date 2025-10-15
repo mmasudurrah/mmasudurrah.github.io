@@ -7,6 +7,9 @@ nav: true
 nav_order: 7
 ---
 
+**Panelist**
+- NAIRR Pilot (Oct–Dec 2025): Reviewer Panelist for the [National Artificial Intelligence Research Resource (NAIRR)](https://nairrpilot.org/), an NSF-led initiative in collaboration with the DOE, NIH, and other agencies supporting AI research and infrastructure development across the United States.
+
 **Organizer**: 
   - NAACL 2024: Organizer and Chair of the Birds of a Feather (BoF) session on Vision-Language Models in Medical Surgery.
   
