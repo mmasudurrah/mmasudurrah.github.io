@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>PostDoc @PurdueEngineers (IE), Ph.D in CS@Purdue</p>
+    <p>Postdoctoral Researcher, Purdue University| Ph.D. in Computer Science, Purdue (2024)</p>
     <p>Email: rahman64@purdue.edu</p>
     <div class="social"> 
     <div class="contact-icons">
