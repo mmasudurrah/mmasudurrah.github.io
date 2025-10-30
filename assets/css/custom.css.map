@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["custom.scss"],"names":[],"mappings":"AACA,KACE,eACA,iBAGF,0CACE,gBACA","sourcesContent":["/* Custom global font size override */\nbody {\n font-size: 18px;\n line-height: 1.65;\n}\n\n.main-content, .page-content, .post-content {\n max-width: 720px;\n margin: 0 auto;\n}\n"],"file":"custom.css"}
