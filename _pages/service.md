@@ -18,6 +18,7 @@ nav_order: 7
   - NeurIPS 2022, 2023, 2025
   - ICML 2022 (**Outstanding reviewer, Top 10%**), 2023, 2024, 2025
   - AAAI 2026 (Main Track, AI Alignment Track, AI for Social Good Track)
+  - CVPR 2026
   - WACV 2026
   - AISTATS 2023, 2026
   - MICCAI 2025
