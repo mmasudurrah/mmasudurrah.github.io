@@ -8,8 +8,8 @@ nav_order: 4
 ---
 
 ## Grants
-
 - **NSF Robust Intelligence (RI) Grant**: *EAGER: Theoretical Foundations for Integrating Foundational Models into Reinforcement Learning* (Award #2521982), Key Personnel, **$300,000**, 2025–2027. PI: Juan P Wachs. [Link](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2521982)
+- **National Artificial Intelligence Research Resource (NAIRR) Compute Award** — $25K OpenAI credits and 50K high-capacity GPU hours; Lead Member; 2025-2026.
 - **Health of the Forces Pilot Funding Program** (Purdue University): *Accelerated Expertise: AI-Powered Diagnostic Pathways for Rapid Clinical Mastery of Burns*, Co-Investigator, **$10,000**, 2025–2026.
 
 ## Awards & Honors
