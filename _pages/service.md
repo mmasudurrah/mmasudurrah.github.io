@@ -8,8 +8,8 @@ nav_order: 7
 ---
 
 **Panelist**
-- NSF TTP (Jan–Feb 2026): Panelist for the U.S. National Science Foundation Translation to Practice Program, supporting the translation of research outcomes into practice.
-- NAIRR Pilot (Oct 2025–Aug 2026): Reviewer Panelist for the [National Artificial Intelligence Research Resource (NAIRR)](https://nairrpilot.org/), an NSF-led initiative in collaboration with the DOE, NIH, and other agencies supporting AI research and infrastructure development across the United States.
+- **NSF TTP** (Jan–Feb 2026): Panelist for the U.S. National Science Foundation Translation to Practice Program, supporting the translation of research outcomes into practice.
+- **NAIRR Pilot** (Oct 2025–Aug 2026): Reviewer Panelist for the [National Artificial Intelligence Research Resource (NAIRR)](https://nairrpilot.org/), an NSF-led initiative in collaboration with the DOE, NIH, and other agencies supporting AI research and infrastructure development across the United States.
 
 **Organizer**: 
   - NAACL 2024: Organizer and Chair of the Birds of a Feather (BoF) session on Vision-Language Models in Medical Surgery.
