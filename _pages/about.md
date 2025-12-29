@@ -20,12 +20,14 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-My research develops principled and adaptable intelligence for autonomous systems operating in high-stakes, uncertain environments such as healthcare and robotics.  I earned my **Ph.D. in Computer Science from Purdue University** in 2024.  I am currently a **Postdoctoral Researcher at Purdue**, working with [Dr. Juan P. Wachs](https://web.ics.purdue.edu/~jpwachs/), where I develop intelligent systems that reason, adapt, and act safely under uncertainty in real-world medical and robotic domains.  
+I study how intelligent systems can adapt reliably when environments, objectives, and assumptions change—especially in high-stakes real-world settings such as healthcare and robotics.
 
-Broadly, my work bridges reinforcement learning (**RL**) and foundation models, such as vision-language models (**VLM**), to create agents that combine data efficiency, generalization, and interpretability. I focus on unifying learning with structured reasoning through optimization, abstraction, and verification to enable intelligent systems that generalize beyond training data while maintaining safety and transparency.  
+My research is motivated by a recurring failure mode of modern AI systems: strong performance under static or controlled conditions often collapses when systems are deployed in dynamic environments where data is limited, objectives are underspecified, and mistakes are costly. Rather than treating these failures as edge cases, my work treats **change itself as the defining condition of intelligence**.
 
-My research aims to deliver real-world impact across **AI in healthcare** and autonomous **robotics**. For instance, my **burn-diagnosis** system achieved 95% accuracy in surgical decision-making using real-patient data, outperforming traditional clinician methods (around 70% accuracy). My teleoperation framework for remote **robotic surgery** maintained robust control under network delays of up to five seconds, far exceeding the limits of conventional systems.  
+I focus on reinforcement learning as a foundation for adaptive decision-making, and develop principled methods that integrate learning with semantic representations, structured reasoning, and embodied interaction. Across theory, algorithms, and deployed systems, my goal is to understand why adaptation fails in practice and how intelligent systems can remain meaningful and reliable when assumptions break.
 
-Previously, I earned my M.S. in Computer Science from the University of Virginia and B.Sc. in Computer Science and Engineering from BUET, and served as a Lecturer at BRAC University.
+My work emphasizes real-world impact in **AI for healthcare** and **autonomous robotics**. For example, I developed a burn-diagnosis system that achieved 95% accuracy on real patient data, substantially outperforming traditional clinician-only decision processes. In robotics, I designed a teleoperation framework for remote surgical assistance that maintained stable control under network delays of up to five seconds—far exceeding the limits of conventional systems.
+
+I earned my Ph.D. in Computer Science from Purdue University in 2024, where I was advised by [Dr. Yexiang Xue](https://www.cs.purdue.edu/homes/yexiang/), and am currently a Postdoctoral Researcher at Purdue working with [Dr. Juan P. Wachs](https://web.ics.purdue.edu/~jpwachs/). Previously, I earned my M.S. in Computer Science from the University of Virginia and a B.Sc. in Computer Science and Engineering from BUET, and served as a Lecturer at BRAC University.
 
 
