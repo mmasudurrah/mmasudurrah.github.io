@@ -8,6 +8,7 @@ nav_order: 3
 display_categories: [Deep RL, Robotic Surgery]
 horizontal: false
 ---
+
 ### Research Vision
 
 Most artificial intelligence systems are designed and evaluated under static assumptions: fixed data distributions, stable environments, and well-specified objectives. In real-world deployment, these assumptions rarely hold. Environments change, objectives are ambiguous, and constraints emerge only after systems are in use. In high-stakes settings, such failures are not merely inconvenient—they can lead to unsafe or irreversible outcomes.
