@@ -27,8 +27,8 @@ nav_order: 7
   - BMVC 2025
   - UAI 2023, 2024
   - AAMAS 2022, 2023, 2024
-  - ECML-PKDD 2021
   - ICRA 2021
+  - ECML-PKDD 2021
   - ICMLA 2021
   - RO-MAN 2021
   
