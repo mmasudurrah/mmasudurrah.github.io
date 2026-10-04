@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mmasudurrah.github.io/sitemap.xml
