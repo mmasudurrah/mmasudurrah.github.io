@@ -1,21 +1,22 @@
-<div align="center">
-Based on al-folio
-[![Preview](readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
+# Website
 
-**A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
+https://mmasudurrah.github.io/
 
----
+## Preview
 
-[![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
-[![Maintainers](https://img.shields.io/badge/maintainers-4-success.svg)](#maintainers)
-[![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
-[![Docker Image Version](https://img.shields.io/docker/v/amirpourmand/al-folio?sort=semver&label=docker%20image&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
-[![Docker Image Size](https://img.shields.io/docker/image-size/amirpourmand/al-folio?sort=date&label=docker%20image%20size&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
-[![Docker Pulls](https://img.shields.io/docker/pulls/amirpourmand/al-folio?color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
+```sh
+python3 scripts/check_public_site.py site
+python3 -m http.server 8787 --bind 127.0.0.1 --directory site
+```
 
-[![GitHub release](https://img.shields.io/github/v/release/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/alshedivat/al-folio?color=blue)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/alshedivat/al-folio)](https://github.com/alshedivat/al-folio)
-[![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/fork)
+Open http://127.0.0.1:8787/.
 
-</div>
+## Update
+
+Refresh the generated files in `site/`, run the checker, and commit the update. The manifest contains file checksums and is refreshed with each export.
+
+GitHub Actions validates changes and publishes `site/` from `master` to `gh-pages`. Previous source files and inactive workflows remain available in the repository.
+
+## Analytics
+
+The site uses Google Analytics measurement ID `G-T4WV8EF43W`. Tracking runs on the public hostname only.
