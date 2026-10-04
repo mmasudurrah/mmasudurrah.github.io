@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Masudur Rahman — reinforcement learning, foundation models, and intelligent autonomy.">
+  <title>Research · Masudur Rahman</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/navigation.js" defer></script>
+  <link rel="canonical" href="https://mmasudurrah.github.io/research/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Research · Masudur Rahman">
+  <meta property="og:description" content="Masudur Rahman — reinforcement learning, foundation models, and intelligent autonomy.">
+  <meta property="og:url" content="https://mmasudurrah.github.io/research/">
+  <meta property="og:image" content="https://mmasudurrah.github.io/assets/prof_pic.jpg">
+  <script src="/analytics.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header wrap">
+  <a class="wordmark" href="/">Masudur Rahman</a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" hidden>Menu</button>
+  <nav id="site-navigation" aria-label="Main navigation"><a href="/">Home</a><a href="/research/" aria-current="page">Research</a><a href="/publications/">Publications</a><a href="/teaching/">Teaching &amp; Mentoring</a><a href="/cv/">CV</a></nav>
+</header>
+<main id="main" class="wrap research-page">
+  <div class="page-intro">
+    <p class="eyebrow">Research</p>
+    <h1>Learning and reasoning for intelligent autonomy.</h1>
+    <p class="lead">I develop reinforcement learning and foundation-model methods for intelligent systems that learn, reason, and act when conditions change.</p>
+    <p class="reading">My work connects adaptive decision making, multimodal reasoning, and human–robot collaboration. Robotics and medicine provide demanding settings for these questions.</p>
+    <div class="links"><a href="#research">Research themes ↓</a><a href="#work">Selected contributions ↓</a><a href="/publications/">All publications →</a></div>
+  </div>
+  <section class="future" aria-labelledby="future-title"><p class="eyebrow">Future research</p><h2 id="future-title">Toward intelligent surgical autonomy.</h2><p>I aim to connect adaptive learning, multimodal reasoning, and human–robot collaboration in bounded surgical tasks. This direction builds on my robotics and AI work, with clinical translation depending on appropriate partnerships and evaluation. The underlying questions extend to robot learning and intelligent decision systems beyond medicine.</p></section>
+
+  <section id="research" class="section" aria-labelledby="research-title">
+    <div class="section-heading"><p class="eyebrow">Research</p><h2 id="research-title">Three connected research themes</h2></div>
+    <div class="themes">
+      <article><span class="number">01</span><h3>Adaptive learning</h3><p>Reinforcement learning, exploration, and generalization. How can agents acquire useful behavior and adapt when their observations or environments change?</p><a href="#rpo">Robust Policy Optimization →</a></article>
+      <article><span class="number">02</span><h3>Reasoning for action</h3><p>Language and multimodal representations for decision making. How can foundation models connect visual evidence and domain knowledge to useful actions?</p><a href="#language">Language-based representations →</a></article>
+      <article><span class="number">03</span><h3>Collaborative autonomy</h3><p>Robot skills, embodied interaction, and human–robot collaboration. How can learned skills support semi-autonomous systems with appropriate human intervention?</p><a href="#sartres">Surgical teleoperation →</a></article>
+    </div>
+  </section>
+
+  <section id="work" class="section" aria-labelledby="work-title">
+    <div class="section-heading horizontal"><div><h2 id="work-title">Selected contributions</h2></div><a href="/publications/">All publications →</a></div>
+    <div class="works">
+      <article class="work" id="rpo">
+        <div class="work-image"><img src="/assets/perturb_gaussian.png" alt="Illustration from the Robust Policy Optimization paper" loading="lazy"></div>
+        <div class="work-copy"><p class="eyebrow">Reinforcement learning · ARLET @ NeurIPS 2025 workshop</p><h3>Robust Policy Optimization</h3><p>My work on action-parameter perturbation studies policy optimization for reinforcement learning.</p><p class="evidence">RPO is integrated into CleanRL and skrl. It is also used in Physical Intelligence’s released implementation of real-time action chunking.</p><p class="paper-title">Robust Policy Gradient Optimization through Action Parameter Perturbation in Reinforcement Learning</p><div class="links"><a href="https://openreview.net/pdf?id=B6N67euqyv">Paper ↗</a><a href="https://github.com/vwxyzjn/cleanrl">CleanRL ↗</a><a href="https://github.com/Toni-SM/skrl">skrl ↗</a></div></div>
+      </article>
+      <article class="work" id="language">
+        <div class="work-image"><img src="/assets/language_state.png" alt="Language-based state representation framework" loading="lazy"></div>
+        <div class="work-copy"><p class="eyebrow">Language &amp; learning · Findings of NAACL 2024</p><h3>Language as a representation for learning</h3><p>I investigate natural-language-based state representations in deep reinforcement learning, connecting semantic descriptions with sequential decision making.</p><p class="paper-title">Natural Language-based State Representation in Deep Reinforcement Learning</p><div class="links"><a href="https://aclanthology.org/2024.findings-naacl.83/">Paper ↗</a></div></div>
+      </article>
+      <article class="work" id="aura">
+        <div class="work-image"><img src="/assets/aura_overview.png" alt="AURA framework for multimodal burn assessment" loading="lazy"></div>
+        <div class="work-copy"><p class="eyebrow">Multimodal reasoning · IAAI 2026, oral presentation</p><h3>Reasoning from medical evidence</h3><p>My work on multimodal burn assessment investigates how vision-language models can combine visual evidence and domain knowledge to support diagnostic reasoning.</p><p class="paper-title">Automated Unified Reasoning with Vision-Language Models for Multi-modal Burn Assessment</p><div class="links"><a href="/assets/AURA_AAAI_IAAI_2026.pdf">Paper ↗</a></div></div>
+      </article>
+      <article class="work" id="sartres">
+        <div class="work-image"><img src="/assets/sartres_framework.png" alt="SARTRES semi-autonomous surgical teleoperation framework" loading="lazy"></div>
+        <div class="work-copy"><p class="eyebrow">Human–robot collaboration · 2021</p><h3>Semi-autonomous surgical teleoperation</h3><p>My collaborative robotics work investigates surgical teleoperation and skill transfer, motivating systems that combine learned capabilities with human guidance.</p><p class="paper-title">SARTRES: A semi-autonomous robot teleoperation environment for surgery</p><div class="links"><a href="/assets/SARTRES-AECAI-TCIV-2020.pdf">Paper ↗</a></div></div>
+      </article>
+    </div>
+  </section>
+
+</main>
+<footer class="wrap">
+  <div><span>Md Masudur Rahman · Purdue University</span><a class="footer-email" href="mailto:rahman64@purdue.edu">rahman64@purdue.edu ↗</a><a href="/news/">News archive →</a></div>
+  <nav class="profile-links" aria-label="Social profiles"><a href="https://www.linkedin.com/in/masud99r/" rel="me">LinkedIn ↗</a><a href="https://x.com/masud99r" rel="me">X (@masud99r) ↗</a><a href="https://github.com/masud99r" rel="me">GitHub ↗</a></nav>
+</footer>
+</body>
+</html>
