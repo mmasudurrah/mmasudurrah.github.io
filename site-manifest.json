@@ -12,7 +12,7 @@
     "assets/AURA_AAAI_IAAI_2026.pdf": "936fd60ed9b885e04ee6c6e720eb607ca48cae1ae4787944930f09a082a7e944",
     "assets/SARTRES-AECAI-TCIV-2020.pdf": "f90dba11716b666fa307e1d5282a183fdd71e3a21012d15f0d5a5fb710ec1f80",
     "assets/aura_overview.png": "078e04f5f5816835a0ae1b9f8e0bf63ca42169f9c8e77b3e87437306a5844490",
-    "assets/cv.pdf": "4b00165a574a715de966d44a9167739c09a0e0ed92e936a957652cc75e5baf6f",
+    "assets/cv.pdf": "8d89228f72937a82acd284174cbdc781d0699313ff66bf8a3630cd7b49db0d19",
     "assets/img/1.jpg": "4e14e73a63146f271aced45a8dc99308186605f1a6aad385392b73d4d52a3ef4",
     "assets/img/10.jpg": "1733ca0ea7f96e1404240370013f13b154bbb14bf2aff864f4042d78ee57aa2b",
     "assets/img/11.jpg": "65ce62cb00640715449c904ee0af17be5d2d3f944a1e0825a3b339f920a88dcf",
@@ -128,7 +128,7 @@
     "assets/papers/poster_ir_model_se_doc.pdf": "d7fe95f8f523ebff4c7bdb083c8fa252ff9c1dcbc73f42b903d6cd76411df343",
     "assets/papers/sigir2016_privacy_web_search.pdf": "623f0343bd97c4a5582b99040ac767c9aaa089b96557d6a010b4cc171d56f363",
     "assets/pdf/AURA_AAAI_IAAI_2026.pdf": "936fd60ed9b885e04ee6c6e720eb607ca48cae1ae4787944930f09a082a7e944",
-    "assets/pdf/CV_Md_Masudur_Rahman.pdf": "4b00165a574a715de966d44a9167739c09a0e0ed92e936a957652cc75e5baf6f",
+    "assets/pdf/CV_Md_Masudur_Rahman.pdf": "8d89228f72937a82acd284174cbdc781d0699313ff66bf8a3630cd7b49db0d19",
     "assets/pdf/DESK-IROS-2019.pdf": "0f68826a16db595aa6b1e32e85f865af27d53c6f2b746b8ab454155b4176a127",
     "assets/pdf/ICRA2021-DESERTS.pdf": "9b7b53edab74391be16461dec40b7d5a0e15b219949f42c6bc8b806242b2715d",
     "assets/pdf/IEEE-Access-2018.pdf": "3ff1b4e4e242bffab35c9343d914f30da522a6a38caf173458ac71400ac73dd4",
@@ -149,8 +149,8 @@
     "assets/prof_pic.jpg": "7c2fabda8d98f7b1331fc5a9755e2350ec4e9a477180a58fc705d0587fcee3b0",
     "assets/sartres_framework.png": "d8d3cafc7680d63b7246d9e0df3f9ed6d2ea556ed18cbdd26130c2afa0b19e08",
     "awards/index.html": "e8751aaaf4b7ff59f5f89d1ffe924ac8495ef5dc0fa92591f6f3b6aa2e17dc00",
-    "cv/index.html": "b07f2103f1b73a3f737595ed15bfc37bf3674a9700f85bac8fbacb4c94cbde7c",
-    "cv.html": "b07f2103f1b73a3f737595ed15bfc37bf3674a9700f85bac8fbacb4c94cbde7c",
+    "cv/index.html": "e3ec6901b3973bd876585cd5768ac71579b25edb0836534e65efde03d3303bb2",
+    "cv.html": "e3ec6901b3973bd876585cd5768ac71579b25edb0836534e65efde03d3303bb2",
     "index.html": "af789b85784d8cc6ad6e569f551db9f5da37a691ff91fa753125b8248795b3e7",
     "navigation.js": "a980560ba13896b95af7414f8d5fe448042b333bd227fd38dfd9cac9ab308530",
     "news/announcement_1/index.html": "07fdb9bc3754d27a8185557b9f0f958e5562bbf0d1c7f55704ff639690fa8679",
@@ -207,7 +207,7 @@
     "service/index.html": "b1af0e7ac4c5b30b5b66ecdb21568545fe2f434d409d54853fdb24a62ac8e6df",
     "sitemap.xml": "c4d709485333125cf53b1b85401fdab05523a6851754ae8b0596ef51b3a09f88",
     "style.css": "b03a2fbf2e2b64de6a246035eea23c1da41bb9b1e9227bd4a541281507ecd2c3",
-    "teaching/index.html": "9c113982004c6ddaf805319998bae4e9e7c04200cb573ea4b6fd81a1b4880132",
-    "teaching.html": "9c113982004c6ddaf805319998bae4e9e7c04200cb573ea4b6fd81a1b4880132"
+    "teaching/index.html": "e20b4ed64a76edde44022b9f578dd81016bf05d02a3fed07f21b6af9abf6788b",
+    "teaching.html": "e20b4ed64a76edde44022b9f578dd81016bf05d02a3fed07f21b6af9abf6788b"
   }
 }
