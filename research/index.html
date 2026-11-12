@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Md Masudur Rahman — reinforcement learning and foundation-model methods for reliable autonomy in surgery and other high-stakes settings.">
+  <meta name="description" content="Md Masudur Rahman is a postdoctoral researcher at Purdue University working on reinforcement learning and robot learning for surgical and medical robotics.">
   <title>Research · Md Masudur Rahman</title>
   <link rel="stylesheet" href="/style.css">
   <script src="/navigation.js" defer></script>
   <link rel="canonical" href="https://mmasudurrah.github.io/research/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Research · Md Masudur Rahman">
-  <meta property="og:description" content="Md Masudur Rahman — reinforcement learning and foundation-model methods for reliable autonomy in surgery and other high-stakes settings.">
+  <meta property="og:description" content="Md Masudur Rahman is a postdoctoral researcher at Purdue University working on reinforcement learning and robot learning for surgical and medical robotics.">
   <meta property="og:url" content="https://mmasudurrah.github.io/research/">
   <meta property="og:image" content="https://mmasudurrah.github.io/assets/prof_pic.jpg">
   <script src="/analytics.js" defer></script>
@@ -24,49 +24,67 @@
 </header>
 <main id="main" class="wrap research-page">
   <div class="page-intro">
-    <p class="eyebrow">Research</p>
-    <h1>Learning-based autonomy for surgery and other high-stakes settings.</h1>
-    <p class="lead">I develop reinforcement learning and foundation-model methods for systems that act reliably when conditions change and recognize when to hand control back to a person, with surgical and medical robotics as the driving application.</p>
-    <p class="reading">My work is organized around one question: when should an autonomous system act, and when should it hand control to a person? The same questions apply to robot learning and decision systems beyond surgery, wherever errors are costly.</p>
-    <div class="links"><a href="#research">Research themes ↓</a><a href="#work">Selected contributions ↓</a><a href="/publications/">All publications →</a></div>
+    <h1>Research</h1>
+    <p>I work on reinforcement learning and robot learning for surgical and medical robotics. The goal is semi-autonomous surgical systems that carry out parts of a procedure reliably and return control to the surgeon when a situation is beyond what they can handle. My work toward this goal is in three areas, summarized below with representative papers. The <a href="/publications/">publications page</a> has the complete list.</p>
   </div>
-  <section class="future" aria-labelledby="future-title"><p class="eyebrow">Research program</p><h2 id="future-title">Surgical autonomy that knows its limits.</h2><p>The next stage of this work brings the three parts below together in surgical tasks: deciding how work is divided between a robot and the surgical team, supporting clinical decisions with evidence a clinician can check, learning policies that stay reliable when a procedure departs from plan, and evaluating systems against the disruptions and failures that occur during real procedures.</p></section>
 
-  <section id="research" class="section" aria-labelledby="research-title">
-    <div class="section-heading"><p class="eyebrow">Research</p><h2 id="research-title">One question, three connected parts</h2></div>
-    <div class="themes">
-      <article><span class="number">01</span><h3>Adapting to change</h3><p>Reinforcement learning, exploration, and generalization. How can agents acquire useful behavior and stay reliable when their observations or environments change?</p><a href="#rpo">Robust Policy Optimization →</a></article>
-      <article><span class="number">02</span><h3>Reasoning from evidence</h3><p>Language and multimodal representations for decision making. How can foundation models connect visual evidence and domain knowledge to decisions a clinician can check?</p><a href="#aura">AI for burn diagnosis →</a></article>
-      <article><span class="number">03</span><h3>Sharing control</h3><p>Robot skills, semi-autonomy, and human–robot collaboration. How should work be divided between a robot and a person, and when should control pass between them?</p><a href="#sartres">Surgical teleoperation →</a></article>
+  <section id="rl" class="section" aria-labelledby="rl-title">
+    <h2 id="rl-title">Reinforcement learning</h2>
+    <p>Policy-gradient methods such as PPO lose policy entropy as training proceeds, which limits exploration, and their performance can depend on the choice of action distribution and on careful tuning. Robust Policy Optimization (RPO) addresses this by perturbing the parameters of the action distribution during training: a random value is added to the mean of the Gaussian policy, which keeps the policy’s entropy from collapsing. On continuous-control benchmarks from DeepMind Control, OpenAI Gym, PyBullet, and IsaacGym, RPO generally outperforms PPO and baselines based on entropy regularization, alternative action distributions, and data augmentation. RPO is included in the CleanRL and skrl libraries and is used in Physical Intelligence’s released implementation of real-time action chunking.</p>
+    <p>A second line of work concerns generalization. Image observations contain many features that are irrelevant to the task, and policies trained on them can fail when those features change. In work published in Findings of NAACL 2024, we convert image observations into natural-language descriptions and train the policy on the text; these policies generalized better than policies trained directly on images. Related papers on generalization and advantage estimation appeared at ECML-PKDD 2022 and ICMLA 2022.</p>
+    <div class="pubs">
+      <article class="pub" id="rpo">
+        <div class="pub-fig"><img src="/assets/perturb_gaussian.png" alt="Standard and perturbed Gaussian action distributions in RPO" loading="lazy"></div>
+        <div><p class="pub-title"><a href="https://openreview.net/pdf?id=B6N67euqyv">Robust Policy Gradient Optimization through Action Parameter Perturbation in Reinforcement Learning</a></p><p class="pub-authors"><strong>Md Masudur Rahman</strong>, Juan P. Wachs, Yexiang Xue</p><p class="pub-venue">ARLET Workshop at NeurIPS 2025</p><p class="pub-links"><a href="https://openreview.net/pdf?id=B6N67euqyv">Paper</a><a href="https://github.com/vwxyzjn/cleanrl">CleanRL</a><a href="https://github.com/Toni-SM/skrl">skrl</a></p></div>
+      </article>
+      <article class="pub" id="language">
+        <div class="pub-fig"><img src="/assets/language_state.png" alt="Image observations converted to natural-language state descriptions" loading="lazy"></div>
+        <div><p class="pub-title"><a href="https://aclanthology.org/2024.findings-naacl.83/">Natural Language-based State Representation in Deep Reinforcement Learning</a></p><p class="pub-authors"><strong>Md Masudur Rahman</strong>, Yexiang Xue</p><p class="pub-venue">Findings of NAACL 2024</p><p class="pub-links"><a href="https://aclanthology.org/2024.findings-naacl.83/">Paper</a></p></div>
+      </article>
     </div>
   </section>
 
-  <section id="work" class="section" aria-labelledby="work-title">
-    <div class="section-heading horizontal"><div><h2 id="work-title">Selected contributions</h2></div><a href="/publications/">All publications →</a></div>
-    <div class="works">
-      <article class="work" id="rpo">
-        <div class="work-image"><img src="/assets/perturb_gaussian.png" alt="Illustration from the Robust Policy Optimization paper" loading="lazy"></div>
-        <div class="work-copy"><p class="eyebrow">Adapting to change · ARLET @ NeurIPS 2025 workshop</p><h3>Robust Policy Optimization</h3><p>My work on action-parameter perturbation studies policy optimization for reinforcement learning.</p><p class="evidence">RPO is integrated into CleanRL and skrl. It is also used in Physical Intelligence’s released implementation of real-time action chunking.</p><p class="paper-title">Robust Policy Gradient Optimization through Action Parameter Perturbation in Reinforcement Learning</p><div class="links"><a href="https://openreview.net/pdf?id=B6N67euqyv">Paper ↗</a><a href="https://github.com/vwxyzjn/cleanrl">CleanRL ↗</a><a href="https://github.com/Toni-SM/skrl">skrl ↗</a></div></div>
+  <section id="clinical" class="section" aria-labelledby="clinical-title">
+    <h2 id="clinical-title">Vision-language models for clinical decision support</h2>
+    <p>Whether a burn needs surgery depends on its depth, which is difficult to judge by visual inspection; expert visual assessment is about 70% accurate. With clinical collaborators at a U.S. burn center, I develop methods that assess burns from ultrasound, including B-mode and Tissue Doppler Imaging. Labeled data in this setting is scarce, so these methods use pre-trained vision-language models together with first-order logic reasoning.</p>
+    <p>KODER (MIUA 2025, Best Paper Award) generates several diagnostic hypotheses from the images and clinical knowledge and checks them for consistency with an SMT solver. AURA (AAAI/IAAI 2026, oral) was evaluated on patient data collected over one year at the burn center and reached up to 93% accuracy on the surgical decision and 87% on fine-grained burn depth. AMBUSH-AI, an automated noninvasive burn diagnostic system, is published in <em>Annals of Surgery</em> (2026), and a related system that incorporates electronic medical records appeared in <a href="https://doi.org/10.2196/68366"><em>JMIR Medical Informatics</em></a> (2025).</p>
+    <div class="pubs">
+      <article class="pub" id="aura">
+        <div class="pub-fig"><img src="/assets/aura_overview.png" alt="Overview of the AURA framework for burn assessment" loading="lazy"></div>
+        <div><p class="pub-title"><a href="/assets/papers/AURA_AAAI_IAAI_2026.pdf">Automated Unified Reasoning with Vision-Language Models for Multi-modal Burn Assessment</a></p><p class="pub-authors"><strong>Md Masudur Rahman</strong>, Mohamed El Masry, Gayle Gordillo, Juan P. Wachs</p><p class="pub-venue">AAAI 2026 (IAAI-26). <strong>Oral presentation</strong></p><p class="pub-links"><a href="/assets/papers/AURA_AAAI_IAAI_2026.pdf">Paper</a><a href="https://doi.org/10.1609/aaai.v40i47.41482">DOI</a></p></div>
       </article>
-      <article class="work" id="aura">
-        <div class="work-image"><img src="/assets/aura_overview.png" alt="AURA framework for multimodal burn assessment" loading="lazy"></div>
-        <div class="work-copy"><p class="eyebrow">Reasoning from evidence · IAAI 2026, oral presentation</p><h3>Reasoning from clinical evidence</h3><p>My work on multimodal burn assessment investigates how vision-language models can combine visual evidence and domain knowledge to support diagnostic reasoning.</p><p class="evidence">Related work received the MIUA 2025 Best Paper Award, and AMBUSH-AI, a non-invasive burn diagnostic system, appears in <em>Annals of Surgery</em>.</p><p class="paper-title">Automated Unified Reasoning with Vision-Language Models for Multi-modal Burn Assessment</p><div class="links"><a href="/assets/AURA_AAAI_IAAI_2026.pdf">Paper ↗</a><a href="/publications/#peerreviewedjournalarticles">Journal publications →</a></div></div>
+      <article class="pub">
+        <div class="pub-fig"><img src="/assets/img/surgery_koder_crop_acc.png" alt="Accuracy of KODER on the surgical decision task across vision-language models" loading="lazy"></div>
+        <div><p class="pub-title"><a href="/assets/papers/koder_ultrasound_burn_miua2025.pdf">Knowledge-Driven Hypothesis Generation for Burn Diagnosis from Ultrasound with Vision-Language Model</a></p><p class="pub-authors"><strong>Md Masudur Rahman</strong>, Mohamed El Masry, Gayle Gordillo, Juan P. Wachs</p><p class="pub-venue">MIUA 2025. <strong>Best Paper Award</strong></p><p class="pub-links"><a href="/assets/papers/koder_ultrasound_burn_miua2025.pdf">Paper</a></p></div>
       </article>
-      <article class="work" id="language">
-        <div class="work-image"><img src="/assets/language_state.png" alt="Language-based state representation framework" loading="lazy"></div>
-        <div class="work-copy"><p class="eyebrow">Reasoning from evidence · Findings of NAACL 2024</p><h3>Language as a representation for learning</h3><p>I investigate natural-language-based state representations in deep reinforcement learning, connecting semantic descriptions with sequential decision making.</p><p class="paper-title">Natural Language-based State Representation in Deep Reinforcement Learning</p><div class="links"><a href="https://aclanthology.org/2024.findings-naacl.83/">Paper ↗</a></div></div>
-      </article>
-      <article class="work" id="sartres">
-        <div class="work-image"><img src="/assets/sartres_framework.png" alt="SARTRES semi-autonomous surgical teleoperation framework" loading="lazy"></div>
-        <div class="work-copy"><p class="eyebrow">Sharing control · <em>CMBBE: Imaging &amp; Visualization</em> 2021</p><h3>Semi-autonomous surgical teleoperation</h3><p>My collaborative robotics work investigates surgical teleoperation and skill transfer, motivating systems that combine learned capabilities with human guidance.</p><p class="paper-title">SARTRES: A semi-autonomous robot teleoperation environment for surgery</p><div class="links"><a href="/assets/SARTRES-AECAI-TCIV-2020.pdf">Paper ↗</a></div></div>
+      <article class="pub">
+        <div class="pub-fig"><img src="/assets/img/human_pig_ambushai.png" alt="Digital photographs and Tissue Doppler ultrasound images of burns from the AMBUSH-AI study" loading="lazy"></div>
+        <div><p class="pub-title"><a href="https://doi.org/10.1097/SLA.0000000000007029">Automated Noninvasive Burn Diagnostic System for Health Care Using Artificial Intelligence: AMBUSH-AI</a></p><p class="pub-authors">Mohamed El Masry*, <strong>Md Masudur Rahman</strong>*, Surya C. Gnyawali, Thomas Smeenge, Yexiang Xue, Brett C. Hartman, Leigh Spera, Lylah H. Hutson, George E. Sandusky, Juan P. Wachs*, Gayle Gordillo* (*equal contribution)</p><p class="pub-venue"><em>Annals of Surgery</em>, 284(2), 2026</p><p class="pub-links"><a href="https://doi.org/10.1097/SLA.0000000000007029">DOI</a></p></div>
       </article>
     </div>
+  </section>
+
+  <section id="surgical" class="section" aria-labelledby="surgical-title">
+    <h2 id="surgical-title">Semi-autonomous surgical robotics</h2>
+    <p>Teleoperated surgical robots need low-latency, high-bandwidth communication, which is often unavailable in remote or austere settings. In SARTRES, the surgeon works at a standard teleoperation interface while the system recognizes the atomic sub-tasks being performed (surgemes) and the remote robot executes them semi-autonomously. On a peg-transfer task from the DESK dataset, surgeme recognition accuracy was 91.5% and execution success was 86%. <a href="/assets/papers/ICRA2021-DESERTS.pdf">DESERTS</a> (ICRA 2021) applies the same approach under communication delay and maintained an 87% task success rate with delays of up to 5 seconds.</p>
+    <p>Related work includes the <a href="/assets/papers/DESK-IROS-2019.pdf">DESK dataset</a> for surgical skill transfer (IROS 2019), skill transfer between robots and between procedures (RO-MAN 2019, 2021), and surgical activity recognition with logic constraints (RO-MAN 2021).</p>
+    <div class="pubs">
+      <article class="pub" id="sartres">
+        <div class="pub-fig"><img src="/assets/sartres_framework.png" alt="The SARTRES framework: operator side, communication network, and remote robot" loading="lazy"></div>
+        <div><p class="pub-title"><a href="/assets/papers/SARTRES-AECAI-TCIV-2020.pdf">SARTRES: A Semi-Autonomous Robot Teleoperation Environment for Surgery</a></p><p class="pub-authors"><strong>Md Masudur Rahman</strong>, Mythra V. Balakuntala, Glebys Gonzalez, Mridul Agarwal, Upinder Kaur, Vishnunandan L. N. Venkatesh, Natalia Sanchez-Tamayo, Yexiang Xue, Richard M. Voyles, Vaneet Aggarwal, Juan Wachs</p><p class="pub-venue"><em>Computer Methods in Biomechanics and Biomedical Engineering: Imaging &amp; Visualization</em>, 9(4), 2021</p><p class="pub-links"><a href="/assets/papers/SARTRES-AECAI-TCIV-2020.pdf">Paper</a><a href="https://doi.org/10.1080/21681163.2020.1834878">DOI</a></p></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="current" class="section" aria-labelledby="current-title">
+    <h2 id="current-title">Current work</h2>
+    <p>My current work brings these areas together in surgical tasks. I am studying how work should be divided between a robot and the surgical team, how learned policies behave when a procedure departs from the plan, and how to evaluate semi-autonomous systems against the disruptions that occur during real procedures. I am also working on integrating foundation models into reinforcement learning, supported by an NSF EAGER award.</p>
   </section>
 
 </main>
 <footer class="wrap">
-  <div><span>Md Masudur Rahman · Purdue University</span><a class="footer-email" href="mailto:rahman64@purdue.edu">rahman64@purdue.edu</a><a href="/news/">News archive →</a></div>
-  <nav class="profile-links" aria-label="Social profiles"><a href="https://www.linkedin.com/in/masud99r/" rel="me">LinkedIn ↗</a><a href="https://x.com/masud99r" rel="me">X (@masud99r) ↗</a><a href="https://github.com/masud99r" rel="me">GitHub ↗</a></nav>
+  <div><span>Md Masudur Rahman · Purdue University</span><a class="footer-email" href="mailto:rahman64@purdue.edu">rahman64@purdue.edu</a><a href="/news/">News archive</a></div>
+  <nav class="profile-links" aria-label="Social profiles"><a href="https://www.linkedin.com/in/masud99r/" rel="me">LinkedIn</a><a href="https://x.com/masud99r" rel="me">X (@masud99r)</a><a href="https://github.com/masud99r" rel="me">GitHub</a></nav>
 </footer>
 </body>
 </html>
