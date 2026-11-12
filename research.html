@@ -25,12 +25,12 @@
 <main id="main" class="wrap research-page">
   <div class="page-intro">
     <h1>Research</h1>
-    <p>I work on reinforcement learning and robot learning for surgical and medical robotics. The goal is semi-autonomous surgical systems that carry out parts of a procedure reliably and return control to the surgeon when a situation is beyond what they can handle. My work toward this goal is in three areas, summarized below with representative papers. The <a href="/publications/">publications page</a> has the complete list.</p>
+    <p>I work on reinforcement learning and robot learning for medicine. Most AI in medicine learns from data collected in the past. My research builds agents that learn through interaction with living systems: they act, measure the biological response, and adapt, and they defer to a clinician when a situation is beyond what they can handle. I call this co-adaptive intelligence. My work so far is in three areas, summarized below with representative papers. The <a href="/publications/">publications page</a> has the complete list.</p>
   </div>
 
   <section id="rl" class="section" aria-labelledby="rl-title">
     <h2 id="rl-title">Reinforcement learning</h2>
-    <p>Policy-gradient methods such as PPO lose policy entropy as training proceeds, which limits exploration, and their performance can depend on the choice of action distribution and on careful tuning. Robust Policy Optimization (RPO) addresses this by perturbing the parameters of the action distribution during training: a random value is added to the mean of the Gaussian policy, which keeps the policy’s entropy from collapsing. On continuous-control benchmarks from DeepMind Control, OpenAI Gym, PyBullet, and IsaacGym, RPO generally outperforms PPO and baselines based on entropy regularization, alternative action distributions, and data augmentation. RPO is included in the CleanRL and skrl libraries and is used in Physical Intelligence’s released implementation of real-time action chunking.</p>
+    <p>Policy-gradient methods such as PPO lose policy entropy as training proceeds, which limits exploration, and their performance can depend on the choice of action distribution and on careful tuning. Robust Policy Optimization (RPO) addresses this by perturbing the parameters of the action distribution during training: a random value is added to the mean of the Gaussian policy, which keeps the policy’s entropy from collapsing. On continuous-control benchmarks from DeepMind Control, OpenAI Gym, PyBullet, and IsaacGym, RPO generally outperforms PPO and baselines based on entropy regularization, alternative action distributions, and data augmentation. RPO is included in the CleanRL and skrl libraries and was used to train simulation expert policies in research on real-time action chunking for robot policies.</p>
     <p>A second line of work concerns generalization. Image observations contain many features that are irrelevant to the task, and policies trained on them can fail when those features change. In work published in Findings of NAACL 2024, we convert image observations into natural-language descriptions and train the policy on the text; these policies generalized better than policies trained directly on images. Related papers on generalization and advantage estimation appeared at ECML-PKDD 2022 and ICMLA 2022.</p>
     <div class="pubs">
       <article class="pub" id="rpo">
@@ -46,16 +46,16 @@
 
   <section id="clinical" class="section" aria-labelledby="clinical-title">
     <h2 id="clinical-title">Vision-language models for clinical decision support</h2>
-    <p>Whether a burn needs surgery depends on its depth, which is difficult to judge by visual inspection; expert visual assessment is about 70% accurate. With clinical collaborators at a U.S. burn center, I develop methods that assess burns from ultrasound, including B-mode and Tissue Doppler Imaging. Labeled data in this setting is scarce, so these methods use pre-trained vision-language models together with first-order logic reasoning.</p>
-    <p>KODER (MIUA 2025, Best Paper Award) generates several diagnostic hypotheses from the images and clinical knowledge and checks them for consistency with an SMT solver. AURA (AAAI/IAAI 2026, oral) was evaluated on patient data collected over one year at the burn center and reached up to 93% accuracy on the surgical decision and 87% on fine-grained burn depth. AMBUSH-AI, an automated noninvasive burn diagnostic system, is published in <em>Annals of Surgery</em> (2026), and a related system that incorporates electronic medical records appeared in <a href="https://doi.org/10.2196/68366"><em>JMIR Medical Informatics</em></a> (2025).</p>
+    <p>Whether a burn needs surgery depends on its depth, which is difficult to judge by visual inspection; the reported accuracy of clinical visual assessment is 60–75%. With clinical collaborators at a U.S. burn center, I develop methods that assess burns from ultrasound, including B-mode and Tissue Doppler Imaging. Labeled data in this setting is scarce, so these methods use pre-trained vision-language models together with first-order logic reasoning.</p>
+    <p>KODER (MIUA 2025, Best Paper Award) turns clinical knowledge into first-order-logic premises, removes conflicting premises with an SMT solver, and uses the consistent set to guide the model’s reasoning on ultrasound. With no task-specific training, it raised GPT-4o from 33% to 93% accuracy on the surgical decision and reached 87% on three-class burn depth. AURA (AAAI/IAAI 2026, oral) extends this to unified multimodal reasoning with automatically generated hypotheses, which came within two points of expert-written ones (93% versus 95%). AMBUSH-AI, an automated noninvasive burn diagnostic system, is published in <em>Annals of Surgery</em> (2026), and a related system that incorporates electronic medical records appeared in <a href="https://doi.org/10.2196/68366"><em>JMIR Medical Informatics</em></a> (2025).</p>
     <div class="pubs">
-      <article class="pub" id="aura">
-        <div class="pub-fig"><img src="/assets/aura_overview.png" alt="Overview of the AURA framework for burn assessment" loading="lazy"></div>
-        <div><p class="pub-title"><a href="/assets/papers/AURA_AAAI_IAAI_2026.pdf">Automated Unified Reasoning with Vision-Language Models for Multi-modal Burn Assessment</a></p><p class="pub-authors"><strong>Md Masudur Rahman</strong>, Mohamed El Masry, Gayle Gordillo, Juan P. Wachs</p><p class="pub-venue">AAAI 2026 (IAAI-26). <strong>Oral presentation</strong></p><p class="pub-links"><a href="/assets/papers/AURA_AAAI_IAAI_2026.pdf">Paper</a><a href="https://doi.org/10.1609/aaai.v40i47.41482">DOI</a></p></div>
-      </article>
       <article class="pub">
         <div class="pub-fig"><img src="/assets/img/surgery_koder_crop_acc.png" alt="Accuracy of KODER on the surgical decision task across vision-language models" loading="lazy"></div>
         <div><p class="pub-title"><a href="/assets/papers/koder_ultrasound_burn_miua2025.pdf">Knowledge-Driven Hypothesis Generation for Burn Diagnosis from Ultrasound with Vision-Language Model</a></p><p class="pub-authors"><strong>Md Masudur Rahman</strong>, Mohamed El Masry, Gayle Gordillo, Juan P. Wachs</p><p class="pub-venue">MIUA 2025. <strong>Best Paper Award</strong></p><p class="pub-links"><a href="/assets/papers/koder_ultrasound_burn_miua2025.pdf">Paper</a></p></div>
+      </article>
+      <article class="pub" id="aura">
+        <div class="pub-fig"><img src="/assets/aura_overview.png" alt="Overview of the AURA framework for burn assessment" loading="lazy"></div>
+        <div><p class="pub-title"><a href="/assets/papers/AURA_AAAI_IAAI_2026.pdf">Automated Unified Reasoning with Vision-Language Models for Multi-modal Burn Assessment</a></p><p class="pub-authors"><strong>Md Masudur Rahman</strong>, Mohamed El Masry, Gayle Gordillo, Juan P. Wachs</p><p class="pub-venue">AAAI 2026 (IAAI-26). <strong>Oral presentation</strong></p><p class="pub-links"><a href="/assets/papers/AURA_AAAI_IAAI_2026.pdf">Paper</a><a href="https://doi.org/10.1609/aaai.v40i47.41482">DOI</a></p></div>
       </article>
       <article class="pub">
         <div class="pub-fig"><img src="/assets/img/human_pig_ambushai.png" alt="Digital photographs and Tissue Doppler ultrasound images of burns from the AMBUSH-AI study" loading="lazy"></div>
@@ -76,9 +76,9 @@
     </div>
   </section>
 
-  <section id="current" class="section" aria-labelledby="current-title">
-    <h2 id="current-title">Current work</h2>
-    <p>My current work brings these areas together in surgical tasks. I am studying how work should be divided between a robot and the surgical team, how learned policies behave when a procedure departs from the plan, and how to evaluate semi-autonomous systems against the disruptions that occur during real procedures. I am also working on integrating foundation models into reinforcement learning, supported by an NSF EAGER award.</p>
+  <section id="directions" class="section" aria-labelledby="directions-title">
+    <h2 id="directions-title">Research directions</h2>
+    <p>My future work develops co-adaptive agents in three directions. In sensing and reasoning, I am extending knowledge-constrained reasoning so that a model abstains when evidence is weak and chooses its next observation, such as another ultrasound view, by its expected value of information. In robot learning, I am building on RPO to study reinforcement-learning fine-tuning of pretrained robot policies, and developing manipulation that models how tissue responds to the robot’s own actions. In therapy, I am developing agents that learn response models from costly experiments and select the next experiment within safety limits, starting with focused-ultrasound treatment.</p>
   </section>
 
 </main>
