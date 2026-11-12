@@ -206,11 +206,11 @@
     "robots.txt": "65af2ee67340b8133fbd084ff2047b0150db42e96908f36d58e7dc95becf26a3",
     "service/index.html": "69d9f70a34f85945a4d63c639862f537755659bb5943b080d18f98310b10faed",
     "sitemap.xml": "c4d709485333125cf53b1b85401fdab05523a6851754ae8b0596ef51b3a09f88",
-    "style.css": "d8c65f3a30191d14e00893c9e0dcb4f08a7838e99a17822e3e3948f1dce2249a",
+    "style.css": "e50a79b829acbd3530a1f242ea8de66ca83cbaaeb5807b86b377d2f72a11b3cb",
     "teaching/index.html": "e6bb52604130dd5a7c8b05225160fbeafe20026fdb6d36358bc7fc34636d3bd5",
     "teaching.html": "e6bb52604130dd5a7c8b05225160fbeafe20026fdb6d36358bc7fc34636d3bd5",
-    "assets/fonts/LICENSE.txt": "c21d7293d87b6d7ab1d0229a2f55b77f33a7613a6a4e66f6693d68d7d8d09464",
-    "assets/fonts/text-italic.woff2": "895ec41ef4324e79c2da80c750eec0c22f763825e667ae340dedc4ccd344bf9a",
-    "assets/fonts/text-roman.woff2": "bb262f07ccb7cbcb658e2593a288cfb898366744fa40d27824f21462759b2942"
+    "assets/fonts/LICENSE.txt": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328",
+    "assets/fonts/text-italic.woff2": "d1acf520fecc762cffd11bd108d29c210a1a5eaeeacbea1c7c2a7bc8e4c264b0",
+    "assets/fonts/text-roman.woff2": "fc44e48a707e3ef9b5ad9c989c9729f09732ddd1e62a46311e8253ce8427a694"
   }
 }
